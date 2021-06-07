@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.piano {
+  display: flex;
+}
+
+.piano > div {
+  height: 10rem;
+  width: 2rem;
+  background-color: red;
+  border-radius: 0 0 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 1px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.pressed {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(3px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px !important;
+}

@@ -1,4 +1,4 @@
 
 tasks:
   - init: npm install -g live-server
-    command: cd piano && live-server src/
+    command: cd piano && live-server .
