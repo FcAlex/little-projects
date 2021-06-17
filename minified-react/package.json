@@ -1,0 +1,23 @@
+{
+  "name": "cra-template-minified-react",
+  "version": "0.2.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "The template for Create React App for study.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fcalex/little-project/",
+    "directory": "min-react"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
